@@ -1,0 +1,7 @@
+ create table CUSTOMER (
+     account_no number(19,0) not null,
+     ifsc varchar2(255 char),
+     amount number(10,0) not null,
+     name varchar2(255 char),
+     primary key (account_no)
+ )
